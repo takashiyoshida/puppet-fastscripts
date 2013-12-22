@@ -1,4 +1,7 @@
 #FastScripts
+[![Build Status](https://travis-ci.org/takashiyoshida/puppet-fastscripts.png?branch=travis)](https://travis-ci.org/takashiyoshida/puppet-fastscripts)
+
+Install [FastScripts](http://www.red-sweater.com/fastscripts/) on OS X.
 
 ## Usage
 
