@@ -3,9 +3,12 @@
 # Usage:
 #
 #     include transmit
-class fastscripts {
+class fastscripts (
+  $version = '2.6.5'
+) {
   package { 'FastScripts':
+    ensure   => installed,
     provider => 'compressed_app',
-    source   => 'http://www.red-sweater.com/fastscripts/FastScripts2.6.5.zip'
+    source   => "http://www.red-sweater.com/fastscripts/FastScripts${version}.zip"
   }
 }
