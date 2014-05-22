@@ -12,8 +12,8 @@ include fastscripts
 ## Required Puppet Modules
 
 * `boxen`
+* `stdlib`
 
 ## Development
 
-Write some code. Run `script/cibuild` to test it. Check the `script`
-directory for other useful tools.
+Write some code. Run `script/cibuild` to test it. Check the `script` directory for other useful tools.
