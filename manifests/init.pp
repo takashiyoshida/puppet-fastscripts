@@ -4,10 +4,10 @@
 #
 #     include transmit
 class fastscripts (
-  $version = '2.6.5'
+  $version = '2.6.7'
 ) {
   package { 'FastScripts':
-    ensure   => installed,
+    ensure   => 'installed',
     provider => 'compressed_app',
     source   => "http://www.red-sweater.com/fastscripts/FastScripts${version}.zip"
   }
